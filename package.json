@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "http-jsonrpc-server": "^1.1.0",
+    "mailparser": "^2.7.7",
+    "smtp-server": "^3.6.0"
+  }
+}
