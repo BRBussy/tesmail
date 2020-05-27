@@ -34,6 +34,7 @@ const server = new SMTPServer({
                     sentEmails[parsedEmail.to.text] = []
                 }
                 sentEmails[parsedEmail.to.text].push(rawEmail)
+                console.log(parsedEmail)
                 console.log('received email to be sent to: ', parsedEmail.to.text)
             } catch (e) {
                 console.error('error parsing email', e)
